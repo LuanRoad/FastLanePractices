@@ -12,6 +12,9 @@
 		831E11C1288EF9560000DE9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
 		831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
 		831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
+		83B20006289195AE00AFEAA2 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
+		83B2FFF4289097DE00AFEAA2 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFEF289097DE00AFEAA2 /* Gemfile */; };
+		83B2FFF7289097DE00AFEAA2 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		831E11C0288EF9560000DE9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		831E11C2288EF9590000DE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831E11C5288EF9590000DE9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83B20005289195AE00AFEAA2 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
+		83B2FFEF289097DE00AFEAA2 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 		831E11B2288EF9550000DE9F = {
 			isa = PBXGroup;
 			children = (
+				83B20005289195AE00AFEAA2 /* fastlane */,
+				83B2FFEF289097DE00AFEAA2 /* Gemfile */,
+				83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */,
 				831E11BD288EF9560000DE9F /* HelloiOS */,
 				831E11BC288EF9550000DE9F /* Products */,
 				E6ECCE3E52744CD6D2EBEDF0 /* Pods */,
@@ -80,7 +89,6 @@
 				61B975855823A02905087365 /* Pods-HelloiOS.debug.xcconfig */,
 				32D6D568C77D636C7652ACCC /* Pods-HelloiOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,8 +159,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B2FFF7289097DE00AFEAA2 /* Gemfile.lock in Resources */,
+				83B2FFF4289097DE00AFEAA2 /* Gemfile in Resources */,
 				831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */,
 				831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */,
+				83B20006289195AE00AFEAA2 /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +327,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 94N33JJK6J;
@@ -334,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devOps.HelloiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HelloiOsDevelopment;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,7 +359,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 94N33JJK6J;
@@ -364,6 +378,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devOps.HelloiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HelloiOsAdHoc;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
