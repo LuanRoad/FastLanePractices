@@ -115,6 +115,8 @@ platform :ios do
     desc "Upload to Test Flight"
     lane :tf do
     
+        inc
+    
         build
 
         # https://docs.fastlane.tools/actions/upload_to_testflight
@@ -146,11 +148,6 @@ platform :ios do
         increment_build_number({
           build_number: latest_testflight_build_number + 1
         })
-        build
-        commit_version_bump(
-            message: "Fastlane Build Bump",
-            force: true,
-        )
-        #push_to_git_remote
+        
     end
 end
