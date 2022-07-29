@@ -60,19 +60,13 @@ platform :ios do
     desc "Build"
     lane :build do
 
-        #match(type: "appstore", readonly: true)
+        match(type: "appstore", readonly: true)
 
         cocoapods
         
         build_app(
             workspace: ENV["WORKSPACE"],
-            scheme: ENV["SCHEME"],
-            export_options: {
-                method: "app-store",
-                provisioningProfiles: {
-                    ENV["APP_IDENTIFIER"] => ENV["PROFILE_APP_STORE"]
-                }
-            }
+            scheme: ENV["SCHEME"]
         )
     end
 

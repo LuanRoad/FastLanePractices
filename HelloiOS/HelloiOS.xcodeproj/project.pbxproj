@@ -29,6 +29,7 @@
 		83B20005289195AE00AFEAA2 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		83B2FFEF289097DE00AFEAA2 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		C5A074F8FACB4DE4C53AF63E /* Pods-HelloiOS.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.adhoc.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.adhoc.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 			children = (
 				61B975855823A02905087365 /* Pods-HelloiOS.debug.xcconfig */,
 				32D6D568C77D636C7652ACCC /* Pods-HelloiOS.release.xcconfig */,
+				C5A074F8FACB4DE4C53AF63E /* Pods-HelloiOS.adhoc.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -329,7 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 94N33JJK6J;
 				ENABLE_PREVIEWS = YES;
@@ -361,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 94N33JJK6J;
 				ENABLE_PREVIEWS = YES;
@@ -447,13 +449,13 @@
 		};
 		83C4EF05289498BE009A350B /* AdHoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61B975855823A02905087365 /* Pods-HelloiOS.debug.xcconfig */;
+			baseConfigurationReference = C5A074F8FACB4DE4C53AF63E /* Pods-HelloiOS.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 94N33JJK6J;
 				ENABLE_PREVIEWS = YES;
