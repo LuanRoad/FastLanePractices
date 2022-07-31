@@ -40,20 +40,14 @@ platform :ios do
     desc "Build Ad Hoc"
     lane :buildAdHoc do
 
-        #match(type: "adhoc", readonly: true)
+        match(type: "adhoc", readonly: true)
 
         cocoapods
 
         build_app(
-            workspace: ENV["WORKSPACE"],
-            scheme: ENV["SCHEME"],
-            configuration: ENV["CONFIGURATION"],
-            export_options: {
-                method: "ad-hoc",
-                provisioningProfiles: {
-                    ENV["APP_IDENTIFIER"] => ENV["PROFILE_AD_HOC"]
-                }
-            }
+            workspace: ENV["XCODE_WORKSPACE"],
+            scheme: ENV["XCODE_SCHEME"],
+            configuration: ENV["XCODE_CONFIGURATION"]
         )
     end
 
@@ -65,14 +59,17 @@ platform :ios do
         cocoapods
         
         build_app(
-            workspace: ENV["WORKSPACE"],
-            scheme: ENV["SCHEME"]
+            workspace: ENV["XCODE_WORKSPACE"],
+            scheme: ENV["XCODE_SCHEME"]
         )
     end
 
     desc "App Center"
     lane :app_center do
-
+    
+    
+       inc
+       
        buildAdHoc
 
        # https://github.com/microsoft/fastlane-plugin-appcenter
