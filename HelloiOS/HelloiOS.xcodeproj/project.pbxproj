@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		31EE96DE95DB712837851846 /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */; };
+		830B836A28987D5F0015462E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
+		830B836B28987D5F0015462E /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11BE288EF9560000DE9F /* HelloiOSApp.swift */; };
+		830B836F28987D5F0015462E /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */; };
+		830B837028987D5F0015462E /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFEF289097DE00AFEAA2 /* Gemfile */; };
+		830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
+		830B837228987D5F0015462E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
+		830B837328987D5F0015462E /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
 		831E11BF288EF9560000DE9F /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11BE288EF9560000DE9F /* HelloiOSApp.swift */; };
 		831E11C1288EF9560000DE9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
 		831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
@@ -15,12 +22,15 @@
 		83B20006289195AE00AFEAA2 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
 		83B2FFF4289097DE00AFEAA2 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFEF289097DE00AFEAA2 /* Gemfile */; };
 		83B2FFF7289097DE00AFEAA2 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */; };
+		B62164A46C280F2FAA183A4C /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1439F7A86896A82696FF2F4A /* Pods-HelloiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.debug.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32D6D568C77D636C7652ACCC /* Pods-HelloiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.release.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.release.xcconfig"; sourceTree = "<group>"; };
-		61B975855823A02905087365 /* Pods-HelloiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.debug.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		50C363BEC600C783112360EA /* Pods-HelloiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.release.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.release.xcconfig"; sourceTree = "<group>"; };
+		7C72DE418F12134AB245152C /* Pods-HelloiOS.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.adhoc.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.adhoc.xcconfig"; sourceTree = "<group>"; };
+		830B837828987D5F0015462E /* HelloiOS_Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiOS_Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831E11BB288EF9550000DE9F /* HelloiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831E11BE288EF9560000DE9F /* HelloiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloiOSApp.swift; sourceTree = "<group>"; };
 		831E11C0288EF9560000DE9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,15 +39,22 @@
 		83B20005289195AE00AFEAA2 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		83B2FFEF289097DE00AFEAA2 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
-		C5A074F8FACB4DE4C53AF63E /* Pods-HelloiOS.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.adhoc.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.adhoc.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		830B836C28987D5F0015462E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		831E11B8288EF9550000DE9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				31EE96DE95DB712837851846 /* Pods_HelloiOS.framework in Frameworks */,
+				B62164A46C280F2FAA183A4C /* Pods_HelloiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				831E11BB288EF9550000DE9F /* HelloiOS.app */,
+				830B837828987D5F0015462E /* HelloiOS_Development.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +105,9 @@
 		E6ECCE3E52744CD6D2EBEDF0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				61B975855823A02905087365 /* Pods-HelloiOS.debug.xcconfig */,
-				32D6D568C77D636C7652ACCC /* Pods-HelloiOS.release.xcconfig */,
-				C5A074F8FACB4DE4C53AF63E /* Pods-HelloiOS.adhoc.xcconfig */,
+				1439F7A86896A82696FF2F4A /* Pods-HelloiOS.debug.xcconfig */,
+				7C72DE418F12134AB245152C /* Pods-HelloiOS.adhoc.xcconfig */,
+				50C363BEC600C783112360EA /* Pods-HelloiOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		830B836728987D5F0015462E /* HelloiOS_Development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830B837428987D5F0015462E /* Build configuration list for PBXNativeTarget "HelloiOS_Development" */;
+			buildPhases = (
+				830B836928987D5F0015462E /* Sources */,
+				830B836C28987D5F0015462E /* Frameworks */,
+				830B836E28987D5F0015462E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloiOS_Development;
+			productName = HelloiOS;
+			productReference = 830B837828987D5F0015462E /* HelloiOS_Development.app */;
+			productType = "com.apple.product-type.application";
+		};
 		831E11BA288EF9550000DE9F /* HelloiOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 831E11C9288EF9590000DE9F /* Build configuration list for PBXNativeTarget "HelloiOS" */;
@@ -152,11 +187,24 @@
 			projectRoot = "";
 			targets = (
 				831E11BA288EF9550000DE9F /* HelloiOS */,
+				830B836728987D5F0015462E /* HelloiOS_Development */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		830B836E28987D5F0015462E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830B836F28987D5F0015462E /* Gemfile.lock in Resources */,
+				830B837028987D5F0015462E /* Gemfile in Resources */,
+				830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */,
+				830B837228987D5F0015462E /* Assets.xcassets in Resources */,
+				830B837328987D5F0015462E /* fastlane in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		831E11B9288EF9550000DE9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +245,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		830B836928987D5F0015462E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830B836A28987D5F0015462E /* ContentView.swift in Sources */,
+				830B836B28987D5F0015462E /* HelloiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		831E11B7288EF9550000DE9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +266,99 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		830B837528987D5F0015462E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 94N33JJK6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devOps.HelloiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.devOps.HelloiOS";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830B837628987D5F0015462E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 94N33JJK6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devOps.HelloiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.devOps.HelloiOS";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AdHoc;
+		};
+		830B837728987D5F0015462E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 94N33JJK6J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devOps.HelloiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.devOps.HelloiOS";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		831E11C7288EF9590000DE9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,7 +475,7 @@
 		};
 		831E11CA288EF9590000DE9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61B975855823A02905087365 /* Pods-HelloiOS.debug.xcconfig */;
+			baseConfigurationReference = 1439F7A86896A82696FF2F4A /* Pods-HelloiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -357,7 +507,7 @@
 		};
 		831E11CB288EF9590000DE9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32D6D568C77D636C7652ACCC /* Pods-HelloiOS.release.xcconfig */;
+			baseConfigurationReference = 50C363BEC600C783112360EA /* Pods-HelloiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,7 +599,7 @@
 		};
 		83C4EF05289498BE009A350B /* AdHoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5A074F8FACB4DE4C53AF63E /* Pods-HelloiOS.adhoc.xcconfig */;
+			baseConfigurationReference = 7C72DE418F12134AB245152C /* Pods-HelloiOS.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -482,6 +632,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		830B837428987D5F0015462E /* Build configuration list for PBXNativeTarget "HelloiOS_Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830B837528987D5F0015462E /* Debug */,
+				830B837628987D5F0015462E /* AdHoc */,
+				830B837728987D5F0015462E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		831E11B6288EF9550000DE9F /* Build configuration list for PBXProject "HelloiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

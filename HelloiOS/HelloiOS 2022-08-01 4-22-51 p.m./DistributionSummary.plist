@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HelloiOS.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>5</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D8953284F6C6994B763A470C175BFB45D57324FD</string>
+				<key>dateExpires</key>
+				<string>29/07/23</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>94N33JJK6J.com.devOps.HelloiOS</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>94N33JJK6J</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>HelloiOS.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>e92ac17c-6ed5-4b3b-ad17-9728fd404385</string>
+				<key>dateExpires</key>
+				<string>29/07/23</string>
+				<key>name</key>
+				<string>match Development com.devOps.HelloiOS</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>94N33JJK6J</string>
+				<key>name</key>
+				<string>Luis Angel Rodriguez Angeles</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

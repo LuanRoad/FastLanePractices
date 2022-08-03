@@ -67,7 +67,7 @@ platform :ios do
     desc "App Center"
     lane :app_center do
     
-    
+
        inc
        
        buildAdHoc
@@ -88,6 +88,8 @@ platform :ios do
     
     desc "Deploy to Firebase Distribution"
     lane :firebase do
+    
+        inc
 
         buildAdHoc
 
@@ -98,8 +100,8 @@ platform :ios do
             testers: ENV["FIREBASE_TESTERS"],
             groups: ENV["FIREBASE_TEST_GROUP"],
             ipa_path: lane_context[SharedValues::IPA_OUTPUT_PATH],
-            release_notes_file: "fastlane/release_notes.txt",
-            service_credentials_file: ENV["FIREBASE_DIST_SERVICE_ACCOUNT_FILE"]
+            release_notes_file: "fastlane/release_notes.txt"
+            #service_credentials_file: ENV["FIREBASE_DIST_SERVICE_ACCOUNT_FILE"]
         )
     end
 
