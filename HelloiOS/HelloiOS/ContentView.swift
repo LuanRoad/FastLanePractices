@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world - fastlane Firebase! - AdHoc")
+        Text("Hello, world - fastlane Firebase Service Account! - AdHoc")
             .padding()
     }
 }

@@ -1,0 +1,44 @@
+1) Docker Desktop
+
+https://docs.docker.com/docker-for-mac/install/
+
+2) Pastas usadas pelo Jenkins
+
+sudo mkdir /var/jenkins_home
+sudo chmod -R 777 /var/jenkins_home
+
+No Docker desktop, compartilhar a pasta em > Resources > File Sharing
+
+/var/jenkins_home
+
+3) Subir o Container (jenkins)
+
+docker-compose up
+
+4) Configurando o Jenkins
+
+> Manage Jenkins > Manage Plugins
+
+* Instalar os plugins Locale, Docker e  Docker Pipeline.
+
+    > Manage Jenkins > Configure System > Locale.
+        - Digite "en_US" em 'Default Language'.
+        - Selecione o checkbox 'Ignore browser preference and force this language to all users'
+        - Clique em Salvar.
+
+5) Env Var
+
+> Manage Jenkins > Configure System > Global properties > Env Var
+
+6) Credenciais
+
+> Manage Jenkins > Manage Credentials > Jenkins > Global credentials
+
+Criar 1 credencial para o Git:
+    - id: udemy
+    - colocar o login e senha do Git.
+
+7) Criar um agente com SSH
+
+Criar agent SSH para:
+    - docker.for.mac.localhost

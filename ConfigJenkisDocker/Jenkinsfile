@@ -1,0 +1,36 @@
+pipeline {
+
+    agent { label 'mac' }
+
+    environment {
+        workspace = pwd()
+        branch = 'master'
+        url = 'https://bitbucket.org/livetouchdev/helloios_udemy'
+    }
+
+    stages {
+        stage('Checkout git') {
+            steps {
+                git branch: branch, credentialsId: 'livetouch', url: url
+            }
+        }
+
+        //https://medium.com/multinetinventiv/ci-cd-with-jenkins-docker-and-fastlane-p2-jenkins-and-docker-45960d1958fd
+        stage('Setup Fastlane') {
+            steps {
+                sh 'security -v unlock-keychain -p ricardo ~/Library/Keychains/login.keychain-db'
+                sh 'source $HOME/.bash_profile'
+                //sh 'bundle --version'
+                //sh 'ls -ll'
+                //sh 'bundle update fastlane'
+                sh 'bundle install'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'bundle exec fastlane tf'
+            }
+        }
+    }
+}

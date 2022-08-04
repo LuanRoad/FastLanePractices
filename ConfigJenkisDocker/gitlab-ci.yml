@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - echo "Fastalane!"
+    - fastlane --version
+    - bundle install
+    - bundle exec fastlane tf
+  tags:
+    - ios
