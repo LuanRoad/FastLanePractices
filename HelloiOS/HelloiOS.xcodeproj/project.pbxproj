@@ -12,12 +12,10 @@
 		830B836B28987D5F0015462E /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11BE288EF9560000DE9F /* HelloiOSApp.swift */; };
 		830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
 		830B837228987D5F0015462E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
-		830B837328987D5F0015462E /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
 		831E11BF288EF9560000DE9F /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11BE288EF9560000DE9F /* HelloiOSApp.swift */; };
 		831E11C1288EF9560000DE9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
 		831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
 		831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
-		83B20006289195AE00AFEAA2 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
 		B62164A46C280F2FAA183A4C /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +30,6 @@
 		831E11C0288EF9560000DE9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		831E11C2288EF9590000DE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831E11C5288EF9590000DE9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		83B20005289195AE00AFEAA2 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +55,6 @@
 		831E11B2288EF9550000DE9F = {
 			isa = PBXGroup;
 			children = (
-				83B20005289195AE00AFEAA2 /* fastlane */,
 				831E11BD288EF9560000DE9F /* HelloiOS */,
 				831E11BC288EF9550000DE9F /* Products */,
 				E6ECCE3E52744CD6D2EBEDF0 /* Pods */,
@@ -191,7 +187,6 @@
 			files = (
 				830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */,
 				830B837228987D5F0015462E /* Assets.xcassets in Resources */,
-				830B837328987D5F0015462E /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +196,6 @@
 			files = (
 				831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */,
 				831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */,
-				83B20006289195AE00AFEAA2 /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
