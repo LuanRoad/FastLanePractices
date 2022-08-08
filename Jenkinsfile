@@ -24,7 +24,7 @@ pipeline {
                 //sh 'ls -ll'
                 //sh 'bundle update fastlane'
                 sh 'bundle install'
-                sh 'bundle install fastlane'
+                sh 'install fastlane'
             }
         }
 
