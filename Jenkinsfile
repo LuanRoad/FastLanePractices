@@ -18,8 +18,7 @@ pipeline {
         //https://medium.com/multinetinventiv/ci-cd-with-jenkins-docker-and-fastlane-p2-jenkins-and-docker-45960d1958fd
         stage('Setup Fastlane') {
             steps {
-                //sh 'security -v unlock-keychain -p Administrador ~/Library/Keychains/login.keychain-db'
-                sh 'security unlock-keychain -s ~/Library/Keychains/login.keychain'
+                sh 'security -v unlock-keychain -p Sistemas.4321 ~/Library/Keychains/login.keychain-db'
                 sh 'source $HOME/.bash_profile'
                 //sh 'bundle --version'
                 //sh 'ls -ll'
