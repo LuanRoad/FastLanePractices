@@ -20,10 +20,11 @@ pipeline {
             steps {
                 sh 'security -v unlock-keychain -p sistemas.4321 ~/Library/Keychains/login.keychain-db'
                 sh 'source $HOME/.bash_profile'
-                sh 'bundle --version'
-                sh 'ls -ll'
-                sh 'bundle update fastlane'
+                //sh 'bundle --version'
+                //sh 'ls -ll'
+                //sh 'bundle update fastlane'
                 sh 'bundle install'
+                sh 'bundle install fastlane'
             }
         }
 
