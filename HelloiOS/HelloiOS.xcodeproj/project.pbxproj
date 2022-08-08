@@ -10,8 +10,6 @@
 		31EE96DE95DB712837851846 /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */; };
 		830B836A28987D5F0015462E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
 		830B836B28987D5F0015462E /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11BE288EF9560000DE9F /* HelloiOSApp.swift */; };
-		830B836F28987D5F0015462E /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */; };
-		830B837028987D5F0015462E /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFEF289097DE00AFEAA2 /* Gemfile */; };
 		830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
 		830B837228987D5F0015462E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
 		830B837328987D5F0015462E /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
@@ -20,8 +18,6 @@
 		831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
 		831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
 		83B20006289195AE00AFEAA2 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
-		83B2FFF4289097DE00AFEAA2 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFEF289097DE00AFEAA2 /* Gemfile */; };
-		83B2FFF7289097DE00AFEAA2 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */; };
 		B62164A46C280F2FAA183A4C /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +33,6 @@
 		831E11C2288EF9590000DE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831E11C5288EF9590000DE9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83B20005289195AE00AFEAA2 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
-		83B2FFEF289097DE00AFEAA2 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				83B20005289195AE00AFEAA2 /* fastlane */,
-				83B2FFEF289097DE00AFEAA2 /* Gemfile */,
-				83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */,
 				831E11BD288EF9560000DE9F /* HelloiOS */,
 				831E11BC288EF9550000DE9F /* Products */,
 				E6ECCE3E52744CD6D2EBEDF0 /* Pods */,
@@ -197,8 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830B836F28987D5F0015462E /* Gemfile.lock in Resources */,
-				830B837028987D5F0015462E /* Gemfile in Resources */,
 				830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */,
 				830B837228987D5F0015462E /* Assets.xcassets in Resources */,
 				830B837328987D5F0015462E /* fastlane in Resources */,
@@ -209,8 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83B2FFF7289097DE00AFEAA2 /* Gemfile.lock in Resources */,
-				83B2FFF4289097DE00AFEAA2 /* Gemfile in Resources */,
 				831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */,
 				831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */,
 				83B20006289195AE00AFEAA2 /* fastlane in Resources */,
