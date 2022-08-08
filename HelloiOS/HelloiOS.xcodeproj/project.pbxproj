@@ -15,8 +15,6 @@
 		830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
 		830B837228987D5F0015462E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
 		830B837328987D5F0015462E /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83B20005289195AE00AFEAA2 /* fastlane */; };
-		830B837A289B280E0015462E /* jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 830B8379289B280D0015462E /* jenkinsfile */; };
-		830B837B289B280E0015462E /* jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 830B8379289B280D0015462E /* jenkinsfile */; };
 		831E11BF288EF9560000DE9F /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11BE288EF9560000DE9F /* HelloiOSApp.swift */; };
 		831E11C1288EF9560000DE9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
 		831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
@@ -33,7 +31,6 @@
 		50C363BEC600C783112360EA /* Pods-HelloiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.release.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.release.xcconfig"; sourceTree = "<group>"; };
 		7C72DE418F12134AB245152C /* Pods-HelloiOS.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloiOS.adhoc.xcconfig"; path = "Target Support Files/Pods-HelloiOS/Pods-HelloiOS.adhoc.xcconfig"; sourceTree = "<group>"; };
 		830B837828987D5F0015462E /* HelloiOS_Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiOS_Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		830B8379289B280D0015462E /* jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jenkinsfile; sourceTree = "<group>"; };
 		831E11BB288EF9550000DE9F /* HelloiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		831E11BE288EF9560000DE9F /* HelloiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloiOSApp.swift; sourceTree = "<group>"; };
 		831E11C0288EF9560000DE9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 				83B20005289195AE00AFEAA2 /* fastlane */,
 				83B2FFEF289097DE00AFEAA2 /* Gemfile */,
 				83B2FFF3289097DE00AFEAA2 /* Gemfile.lock */,
-				830B8379289B280D0015462E /* jenkinsfile */,
 				831E11BD288EF9560000DE9F /* HelloiOS */,
 				831E11BC288EF9550000DE9F /* Products */,
 				E6ECCE3E52744CD6D2EBEDF0 /* Pods */,
@@ -206,7 +202,6 @@
 				830B837128987D5F0015462E /* Preview Assets.xcassets in Resources */,
 				830B837228987D5F0015462E /* Assets.xcassets in Resources */,
 				830B837328987D5F0015462E /* fastlane in Resources */,
-				830B837B289B280E0015462E /* jenkinsfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +214,6 @@
 				831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */,
 				831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */,
 				83B20006289195AE00AFEAA2 /* fastlane in Resources */,
-				830B837A289B280E0015462E /* jenkinsfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
