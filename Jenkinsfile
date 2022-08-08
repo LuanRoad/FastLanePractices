@@ -19,7 +19,7 @@ pipeline {
         stage('Setup Fastlane') {
             steps {
                 //sh 'security -v unlock-keychain -p Administrador ~/Library/Keychains/login.keychain-db'
-                sh 'security unlock-keychain -u'
+                sh 'security unlock-keychain -u ~/Library/Keychains/login.keychain'
                 sh 'source $HOME/.bash_profile'
                 //sh 'bundle --version'
                 //sh 'ls -ll'
