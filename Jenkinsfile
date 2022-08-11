@@ -30,7 +30,8 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'bundle exec fastlane tf'
+                sh 'bundle exec fastlane build'
+                //sh 'bundle exec fastlane tf'
             }
         }
     }
