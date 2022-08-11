@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		57650876FB1836B81F29A5F3 /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFAB43D3B1C3B749DB35758 /* Pods_HelloiOS.framework */; };
+		8338489128A5933900FF2734 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 8338488D28A5933900FF2734 /* Gemfile */; };
+		8338489228A5933900FF2734 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 8338488E28A5933900FF2734 /* fastlane */; };
+		8338489328A5933900FF2734 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 8338488F28A5933900FF2734 /* Jenkinsfile */; };
+		8338489428A5933900FF2734 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 8338489028A5933900FF2734 /* Gemfile.lock */; };
 		83783B8A28A5866200679EB7 /* HelloiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83783B8928A5866200679EB7 /* HelloiOSApp.swift */; };
 		83783B8C28A5866200679EB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83783B8B28A5866200679EB7 /* ContentView.swift */; };
 		83783B8E28A5866500679EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83783B8D28A5866500679EB7 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		0EFAB43D3B1C3B749DB35758 /* Pods_HelloiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8338488D28A5933900FF2734 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		8338488E28A5933900FF2734 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
+		8338488F28A5933900FF2734 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		8338489028A5933900FF2734 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 		83783B8628A5866200679EB7 /* HelloiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83783B8928A5866200679EB7 /* HelloiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloiOSApp.swift; sourceTree = "<group>"; };
 		83783B8B28A5866200679EB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,13 +51,16 @@
 				D33F5255DCBAAE89030D4BFA /* Pods-HelloiOS.debug.xcconfig */,
 				F4DB99FAF08408ADD40B4267 /* Pods-HelloiOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		83783B7D28A5866200679EB7 = {
 			isa = PBXGroup;
 			children = (
+				8338488E28A5933900FF2734 /* fastlane */,
+				8338488D28A5933900FF2734 /* Gemfile */,
+				8338489028A5933900FF2734 /* Gemfile.lock */,
+				8338488F28A5933900FF2734 /* Jenkinsfile */,
 				83783B8828A5866200679EB7 /* HelloiOS */,
 				83783B8728A5866200679EB7 /* Products */,
 				70701648D9B2BF545668108A /* Pods */,
@@ -151,7 +162,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8338489428A5933900FF2734 /* Gemfile.lock in Resources */,
+				8338489128A5933900FF2734 /* Gemfile in Resources */,
 				83783B9128A5866500679EB7 /* Preview Assets.xcassets in Resources */,
+				8338489328A5933900FF2734 /* Jenkinsfile in Resources */,
+				8338489228A5933900FF2734 /* fastlane in Resources */,
 				83783B8E28A5866500679EB7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
