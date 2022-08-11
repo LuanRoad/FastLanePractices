@@ -23,7 +23,8 @@ pipeline {
                 //sh 'bundle --version'
                 //sh 'ls -ll'
                 //sh 'bundle update fastlane'
-                sh 'bundle install --path ~/.gem'
+                sh 'bundle config set --local path ~/.gem'
+                sh 'bundle install'
             }
         }
 
