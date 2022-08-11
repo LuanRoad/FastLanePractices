@@ -16,9 +16,7 @@
 		831E11C1288EF9560000DE9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E11C0288EF9560000DE9F /* ContentView.swift */; };
 		831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C2288EF9590000DE9F /* Assets.xcassets */; };
 		831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831E11C5288EF9590000DE9F /* Preview Assets.xcassets */; };
-		83BA687028A56574003E8188 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 83BA686D28A56574003E8188 /* Gemfile.lock */; };
 		83BA687128A56574003E8188 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 83BA686E28A56574003E8188 /* fastlane */; };
-		83BA687228A56574003E8188 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 83BA686F28A56574003E8188 /* Gemfile */; };
 		B62164A46C280F2FAA183A4C /* Pods_HelloiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ADA815409DE6DFD3AD59791 /* Pods_HelloiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,9 +31,7 @@
 		831E11C0288EF9560000DE9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		831E11C2288EF9590000DE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831E11C5288EF9590000DE9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		83BA686D28A56574003E8188 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 		83BA686E28A56574003E8188 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
-		83BA686F28A56574003E8188 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				83BA686E28A56574003E8188 /* fastlane */,
-				83BA686F28A56574003E8188 /* Gemfile */,
-				83BA686D28A56574003E8188 /* Gemfile.lock */,
 				831E11BD288EF9560000DE9F /* HelloiOS */,
 				831E11BC288EF9550000DE9F /* Products */,
 				E6ECCE3E52744CD6D2EBEDF0 /* Pods */,
@@ -203,9 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BA687028A56574003E8188 /* Gemfile.lock in Resources */,
 				831E11C6288EF9590000DE9F /* Preview Assets.xcassets in Resources */,
-				83BA687228A56574003E8188 /* Gemfile in Resources */,
 				83BA687128A56574003E8188 /* fastlane in Resources */,
 				831E11C3288EF9590000DE9F /* Assets.xcassets in Resources */,
 			);
