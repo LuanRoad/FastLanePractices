@@ -143,4 +143,12 @@ platform :ios do
         })
         
     end
+    
+    desc "Incrementando Numero de version Automaticamente"
+    lane :incVersionAuto do
+        # Esta no jala -> increment_version_number
+        increment_version_number_in_xcodeproj(bump_type: "patch", target: "HelloiOS")
+    end
+    
+    
 end

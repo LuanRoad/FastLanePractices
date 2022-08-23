@@ -95,6 +95,14 @@ Upload to Test Flight - External
 
 Increment Build Number
 
+### ios incVersionAuto
+
+```sh
+[bundle exec] fastlane ios incVersionAuto
+```
+
+Incrementando Numero de version Automaticamente
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.
