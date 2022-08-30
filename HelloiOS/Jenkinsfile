@@ -48,7 +48,7 @@ pipeline {
             steps {
                 // bundle exec fastlane env
                 sh '''
-                    cd ./mi-banco-ios-universal
+                    cd ./HelloiOS
                     bundle exec fastlane getProvisioningProfileDev
                 '''
             }
