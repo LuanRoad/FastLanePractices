@@ -95,6 +95,54 @@ Upload to Test Flight - External
 
 Increment Build Number
 
+### ios incVersionAuto
+
+```sh
+[bundle exec] fastlane ios incVersionAuto
+```
+
+Incrementando Numero de version Automaticamente
+
+### ios getDevCert
+
+```sh
+[bundle exec] fastlane ios getDevCert
+```
+
+Get Cert for development
+
+### ios getDisCert
+
+```sh
+[bundle exec] fastlane ios getDisCert
+```
+
+Get Cert for distribution
+
+### ios CreateCert
+
+```sh
+[bundle exec] fastlane ios CreateCert
+```
+
+Create a type cert
+
+### ios getProvisioningProfileDev
+
+```sh
+[bundle exec] fastlane ios getProvisioningProfileDev
+```
+
+Gets provisionilg profiles development with sigh
+
+### ios getProvisioningProfileAdHoc
+
+```sh
+[bundle exec] fastlane ios getProvisioningProfileAdHoc
+```
+
+Gets provisionilg profiles AdHoc with sigh
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.

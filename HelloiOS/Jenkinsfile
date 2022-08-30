@@ -32,6 +32,28 @@ pipeline {
             }
         }
 
+        stage('spaceauth') {
+            steps {
+                // bundle exec fastlane env
+                // fastlane sigh download_all
+                //bundle exec fastlane downloadMatchProvisioningDev
+                sh '''
+                    cd ./HelloiOS
+                    bundle exec fastlane spaceauth
+                '''
+            }
+        }
+
+        stage('Gets Provisioning profile') {
+            steps {
+                // bundle exec fastlane env
+                sh '''
+                    cd ./mi-banco-ios-universal
+                    bundle exec fastlane getProvisioningProfileDev
+                '''
+            }
+        }
+
         stage('Build') {
             steps {
 

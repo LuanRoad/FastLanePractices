@@ -140,7 +140,52 @@ platform :ios do
     
         increment_build_number({
           build_number: latest_testflight_build_number + 1
-        })
-        
+        }) 
+    end
+
+    desc "Incrementando Numero de version Automaticamente"
+    lane :incVersionAuto do
+        # Esta no jala -> increment_version_number
+        increment_version_number_in_xcodeproj(bump_type: "patch", target: "HelloiOS")
+    end
+    
+
+    desc "Get Cert for development"
+    lane :getDevCert do
+        get_certificates(
+        development: true,
+        username: ENV["APPLE_ID"]
+        )
+    end
+
+    desc "Get Cert for distribution"
+    lane :getDisCert do
+        get_certificates(
+        username: ENV["APPLE_ID"]
+        )
+    end
+
+    desc "Create a type cert"
+    lane :CreateCert do
+        #type: specify type cert
+        match(type: "development")
+        # cert type: development
+    end
+
+    desc "Gets provisionilg profiles development with sigh"
+    lane :getProvisioningProfileDev do
+        get_provisioning_profile(
+            development: true,
+            username: ENV["APPLE_ID"]
+        )
+    end
+
+
+    desc "Gets provisionilg profiles AdHoc with sigh"
+    lane :getProvisioningProfileAdHoc do
+        get_provisioning_profile(
+            adhoc: true,
+            username: ENV["APPLE_ID"]
+        )
     end
 end
